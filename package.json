@@ -1,0 +1,11 @@
+{
+  "name": "nx-monorepo-templates",
+  "packageManager": "yarn@3.2.4",
+  "workspaces": [
+    "packages/**/*",
+    "services/**/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}
